@@ -1,0 +1,537 @@
+{
+    "users": [
+        {
+            "_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "email": "riyannewskull@gmail.com",
+            "password": "$2b$12$EyQAgNxSRjbRkfBIQDz10exT95ifBsmZgJwvnG6DELikF9GKltgOW",
+            "name": "HIDAYAT",
+            "distance_km": 1240.0,
+            "points": 4850,
+            "type": "user"
+        },
+        {
+            "_id": "053239e5-8c45-4c89-9f4a-9e2600fa7817",
+            "id": "053239e5-8c45-4c89-9f4a-9e2600fa7817",
+            "email": "googleuser@gmail.com",
+            "password": "$2b$12$fgWEBOO87ppdIwYz27g5WuA.OvxT9weasJfhKKtvunBbasoYQfNGu",
+            "name": "Google User",
+            "distance_km": 1240.0,
+            "points": 4850,
+            "type": "user"
+        }
+    ],
+    "products": [
+        {
+            "_id": "8060b632-bda1-47de-a65c-59f0696e4893",
+            "id": "8060b632-bda1-47de-a65c-59f0696e4893",
+            "email": "testuser@example.com",
+            "password": "$2b$12$81JyahU1SZJwyogo2qRyLO0rvyF/ywCrwOU7Mww3JnZLpzCNpkr9G",
+            "name": "Test User",
+            "status": "Premium Member",
+            "distance_km": 1240.0,
+            "points": 4850,
+            "type": "product"
+        },
+        {
+            "_id": "99bd3fe3-9d13-4bbd-85bf-144797559185",
+            "id": "99bd3fe3-9d13-4bbd-85bf-144797559185",
+            "user_id": "99bd3fe3-9d13-4bbd-85bf-144797559185",
+            "items": [
+                {
+                    "product_id": "polygon-xtrada-7",
+                    "quantity": 1
+                }
+            ],
+            "type": "product"
+        },
+        {
+            "_id": "891a8b68-8610-407f-aec5-281f9458b35f",
+            "id": "891a8b68-8610-407f-aec5-281f9458b35f",
+            "order_id": "65-99210-XC",
+            "user_id": "99bd3fe3-9d13-4bbd-85bf-144797559185",
+            "date": "12 Jan 2024",
+            "status": "Selesai",
+            "items": [
+                {
+                    "product_id": "sepeda-1",
+                    "name": "Specialized Epic EVO",
+                    "price": 45000000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/specialized.png"
+                }
+            ],
+            "subtotal": 45000000.0,
+            "shipping": 125000.0,
+            "tax": 4950000.0,
+            "total_amount": 50075000.0,
+            "type": "product"
+        },
+        {
+            "_id": "99d87abf-539f-4ca4-8a1b-3effd267c443",
+            "id": "99d87abf-539f-4ca4-8a1b-3effd267c443",
+            "order_id": "65-88122-RD",
+            "user_id": "99bd3fe3-9d13-4bbd-85bf-144797559185",
+            "date": "24 Feb 2024",
+            "status": "Dikirim",
+            "items": [
+                {
+                    "product_id": "sepeda-2",
+                    "name": "Giant Propel Advanced Pro",
+                    "price": 62500000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/giant.png"
+                }
+            ],
+            "subtotal": 62500000.0,
+            "shipping": 125000.0,
+            "tax": 6875000.0,
+            "total_amount": 69500000.0,
+            "type": "product"
+        },
+        {
+            "_id": "1ce756f7-f419-4d99-b3ae-4d8190e32267",
+            "id": "1ce756f7-f419-4d99-b3ae-4d8190e32267",
+            "order_id": "65-77381-BMX",
+            "user_id": "99bd3fe3-9d13-4bbd-85bf-144797559185",
+            "date": "05 Feb 2024",
+            "status": "Dibatalkan",
+            "items": [
+                {
+                    "product_id": "sepeda-3",
+                    "name": "Haro Blackout Pro XL",
+                    "price": 12800000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/haro.png"
+                }
+            ],
+            "subtotal": 12800000.0,
+            "shipping": 125000.0,
+            "tax": 1408000.0,
+            "total_amount": 14333000.0,
+            "type": "product"
+        },
+        {
+            "_id": "d43ffa4b-970c-4c0b-b793-fced1c02f766",
+            "id": "d43ffa4b-970c-4c0b-b793-fced1c02f766",
+            "order_id": "65-66552-ACC",
+            "user_id": "99bd3fe3-9d13-4bbd-85bf-144797559185",
+            "date": "20 Jan 2024",
+            "status": "Selesai",
+            "items": [
+                {
+                    "product_id": "gear-1",
+                    "name": "Helmet & Gear Set",
+                    "price": 4250000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/helmet.png"
+                }
+            ],
+            "subtotal": 425000.0,
+            "shipping": 25000.0,
+            "tax": 46750.0,
+            "total_amount": 4250000.0,
+            "type": "product"
+        },
+        {
+            "_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "items": [
+                {
+                    "product_id": "polygon-xtrada-7",
+                    "quantity": 1
+                }
+            ],
+            "type": "product"
+        },
+        {
+            "_id": "2fc0e375-754a-4b1a-b6ec-8d60f9ec118e",
+            "id": "2fc0e375-754a-4b1a-b6ec-8d60f9ec118e",
+            "order_id": "65-99210-XC",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "12 Jan 2024",
+            "status": "Selesai",
+            "items": [
+                {
+                    "product_id": "sepeda-1",
+                    "name": "Specialized Epic EVO",
+                    "price": 45000000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/specialized.png"
+                }
+            ],
+            "subtotal": 45000000.0,
+            "shipping": 125000.0,
+            "tax": 4950000.0,
+            "total_amount": 50075000.0,
+            "type": "product"
+        },
+        {
+            "_id": "59d5dbfb-1d43-4c3f-8b54-c0a9820f316b",
+            "id": "59d5dbfb-1d43-4c3f-8b54-c0a9820f316b",
+            "order_id": "65-88122-RD",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "24 Feb 2024",
+            "status": "Dikirim",
+            "items": [
+                {
+                    "product_id": "sepeda-2",
+                    "name": "Giant Propel Advanced Pro",
+                    "price": 62500000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/giant.png"
+                }
+            ],
+            "subtotal": 62500000.0,
+            "shipping": 125000.0,
+            "tax": 6875000.0,
+            "total_amount": 69500000.0,
+            "type": "product"
+        },
+        {
+            "_id": "9dc245b2-95e5-427c-9511-5c59a0f758f7",
+            "id": "9dc245b2-95e5-427c-9511-5c59a0f758f7",
+            "order_id": "65-77381-BMX",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "05 Feb 2024",
+            "status": "Dibatalkan",
+            "items": [
+                {
+                    "product_id": "sepeda-3",
+                    "name": "Haro Blackout Pro XL",
+                    "price": 12800000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/haro.png"
+                }
+            ],
+            "subtotal": 12800000.0,
+            "shipping": 125000.0,
+            "tax": 1408000.0,
+            "total_amount": 14333000.0,
+            "type": "product"
+        },
+        {
+            "_id": "3f1c2645-4792-4d2c-a958-1a78d2f5beb2",
+            "id": "3f1c2645-4792-4d2c-a958-1a78d2f5beb2",
+            "order_id": "65-66552-ACC",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "20 Jan 2024",
+            "status": "Selesai",
+            "items": [
+                {
+                    "product_id": "gear-1",
+                    "name": "Helmet & Gear Set",
+                    "price": 4250000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/helmet.png"
+                }
+            ],
+            "subtotal": 425000.0,
+            "shipping": 25000.0,
+            "tax": 46750.0,
+            "total_amount": 4250000.0,
+            "type": "product"
+        },
+        {
+            "_id": "polygon-xtrada-7",
+            "id": "polygon-xtrada-7",
+            "name": "Polygon Xtrada 7",
+            "category": "Mountain",
+            "price": 9500000.0,
+            "rating": 4.8,
+            "reviews_count": 120,
+            "description": "The Polygon Xtrada 7 is designed for riders who want to tackle a wide variety of trails. Built with a lightweight and responsive ALX alloy frame, featuring modern trail geometry, a 120mm suspension fork, and a Shimano Deore 1x12 drivetrain, this bike offers premium cross-country performance.",
+            "specifications": {
+                "frame": "ALX XC Trail Alloy",
+                "gears": "Shimano Deore 12-Speed"
+            },
+            "image_url": "http://localhost:8000/static/images/polygon_xtrada_7.png",
+            "type": "product"
+        },
+        {
+            "_id": "stratos-s5-carbon",
+            "id": "stratos-s5-carbon",
+            "name": "Stratos S5 Carbon",
+            "category": "Road",
+            "price": 15200000.0,
+            "rating": 4.9,
+            "reviews_count": 85,
+            "description": "Engineered for speed and efficiency, the Stratos S5 features an ACX Carbon performance frame and fork. It delivers an incredibly stiff and lightweight riding experience, optimized with a Shimano 105 2x11 speed groupset to conquer long climbs and sprint finishes alike.",
+            "specifications": {
+                "frame": "ACX Carbon Road Performance",
+                "gears": "Shimano 105 22-Speed"
+            },
+            "image_url": "http://localhost:8000/static/images/stratos_s5.png",
+            "type": "product"
+        },
+        {
+            "_id": "united-trifold-bmx",
+            "id": "united-trifold-bmx",
+            "name": "United Trifold BMX",
+            "category": "BMX",
+            "price": 4800000.0,
+            "rating": 4.7,
+            "reviews_count": 42,
+            "description": "A robust, high-performance BMX bike perfect for street riders and skatepark enthusiasts. Designed with a chromoly steel frame, double-wall alloy rims, and responsive freestyle geometry, the United Trifold is built to handle heavy drops and technical tricks.",
+            "specifications": {
+                "frame": "Chromoly Freestyle Steel",
+                "gears": "Single-Speed 25/9T"
+            },
+            "image_url": "http://localhost:8000/static/images/united_trifold.png",
+            "type": "product"
+        },
+        {
+            "_id": "polygon-urbano-5",
+            "id": "polygon-urbano-5",
+            "name": "Polygon Urbano 5",
+            "category": "Electric",
+            "price": 5400000.0,
+            "rating": 4.6,
+            "reviews_count": 57,
+            "description": "The ultimate urban companion. The Polygon Urbano 5 folding bike is designed for city commuters who have limited storage space. Equipped with a lightweight folding frame, 20-inch wheels, and an active assistance hub motor, it takes the sweat out of daily city travel.",
+            "specifications": {
+                "frame": "AL6 Folding Urban Alloy",
+                "gears": "Shimano Altus 9-Speed"
+            },
+            "image_url": "http://localhost:8000/static/images/polygon_urbano.png",
+            "type": "product"
+        },
+        {
+            "_id": "polygon-cascade-4",
+            "id": "polygon-cascade-4",
+            "name": "Polygon Cascade 4",
+            "category": "Mountain",
+            "price": 3500000.0,
+            "rating": 4.8,
+            "reviews_count": 120,
+            "description": "Built for versatility and durability, the Polygon Cascade 4 features a lightweight AL6 XC Sport aluminum frame. Equipped with a Suntour XCE suspension fork to absorb trail impacts and a Shimano 3x7 speed drivetrain for reliable shifting on varied terrain. Perfect for commuters who occasionally venture onto forest paths.",
+            "specifications": {
+                "frame": "AL6 XC Sport",
+                "gears": "Shimano 21-Speed"
+            },
+            "image_url": "http://localhost:8000/static/images/polygon_cascade_4.png",
+            "type": "product"
+        },
+        {
+            "_id": "apex-trailblazer-x1",
+            "id": "apex-trailblazer-x1",
+            "name": "Apex Trailblazer X-1",
+            "category": "Mountain",
+            "price": 12500000.0,
+            "rating": 4.9,
+            "reviews_count": 64,
+            "description": "The Apex Trailblazer X-1 is a top-tier trail blazer. Equipped with an air-suspension fork, hydraulic disc brakes, and tubeless-ready rims, this mountain bike handles rock gardens and steep singletracks with ultimate control.",
+            "specifications": {
+                "frame": "Hydroformed double-butted Alloy",
+                "gears": "SRAM SX Eagle 12-Speed"
+            },
+            "image_url": "http://localhost:8000/static/images/apex_trailblazer.png",
+            "type": "product"
+        },
+        {
+            "_id": "vortex-pro-helmet",
+            "id": "vortex-pro-helmet",
+            "name": "Vortex Pro Helmet",
+            "category": "Lainnya",
+            "price": 850000.0,
+            "rating": 4.8,
+            "reviews_count": 31,
+            "description": "Safety meets aerodynamic styling. The Vortex Pro Helmet features MIPS protection technology, multi-channel ventilation holes, and an adjustable dial-fit system to keep you safe and comfortable on long rides.",
+            "specifications": {
+                "frame": "Polycarbonate In-Mold EPS",
+                "gears": "Dial-Fit Adjustment"
+            },
+            "image_url": "http://localhost:8000/static/images/vortex_helmet.png",
+            "type": "product"
+        },
+        {
+            "_id": "gowessync-gps-pro",
+            "id": "gowessync-gps-pro",
+            "name": "GowesSync GPS Pro",
+            "category": "Lainnya",
+            "price": 2150000.0,
+            "rating": 4.7,
+            "reviews_count": 19,
+            "description": "Track your ride like a pro. The GowesSync GPS computer records speed, distance, elevation, and maps your trail routes. Connects seamlessly with heart rate monitors and training apps via Bluetooth and ANT+.",
+            "specifications": {
+                "frame": "Waterproof IPX7 Housing",
+                "gears": "30-Hour Battery Life"
+            },
+            "image_url": "http://localhost:8000/static/images/gowes_gps.png",
+            "type": "product"
+        },
+        {
+            "_id": "053239e5-8c45-4c89-9f4a-9e2600fa7817",
+            "id": "053239e5-8c45-4c89-9f4a-9e2600fa7817",
+            "user_id": "053239e5-8c45-4c89-9f4a-9e2600fa7817",
+            "items": [],
+            "type": "product"
+        }
+    ],
+    "carts": [],
+    "transactions": [
+        {
+            "_id": "a7438a59-35e2-4149-86d2-c0aa4c60d230",
+            "id": "a7438a59-35e2-4149-86d2-c0aa4c60d230",
+            "order_id": "67-70076-RD",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "29 Jul 2026",
+            "status": "Selesai",
+            "items": [
+                {
+                    "product_id": "vortex-pro-helmet",
+                    "name": "Vortex Pro Helmet",
+                    "price": 850000.0,
+                    "quantity": 1
+                }
+            ],
+            "subtotal": 850000.0,
+            "shipping": 125000.0,
+            "tax": 93500.0,
+            "total_amount": 1068500.0,
+            "type": "transaction"
+        },
+        {
+            "_id": "c8d829bd-5798-4eab-a401-6622c6316232",
+            "id": "c8d829bd-5798-4eab-a401-6622c6316232",
+            "order_id": "65-21326-XC",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "29 Jul 2026",
+            "status": "Dibatalkan",
+            "items": [
+                {
+                    "product_id": "stratos-s5-carbon",
+                    "name": "Stratos S5 Carbon",
+                    "price": 15200000.0,
+                    "quantity": 1
+                }
+            ],
+            "subtotal": 15200000.0,
+            "shipping": 125000.0,
+            "tax": 1672000.0,
+            "total_amount": 16997000.0,
+            "type": "transaction"
+        },
+        {
+            "_id": "fd206e2b-43c2-4eae-b0d5-a578d4070faa",
+            "id": "fd206e2b-43c2-4eae-b0d5-a578d4070faa",
+            "order_id": "67-13143-ACC",
+            "user_id": "99bd3fe3-9d13-4bbd-85bf-144797559185",
+            "date": "29 Jul 2026",
+            "status": "Dikirim",
+            "items": [
+                {
+                    "product_id": "polygon-xtrada-7",
+                    "name": "Polygon Xtrada 7",
+                    "price": 9500000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/polygon_xtrada_7.png"
+                }
+            ],
+            "subtotal": 9500000.0,
+            "shipping": 125000.0,
+            "tax": 1045000.0,
+            "total_amount": 10670000.0,
+            "type": "transaction"
+        },
+        {
+            "_id": "d5014d54-8a61-47e7-9b4c-05eb3c1d638d",
+            "id": "d5014d54-8a61-47e7-9b4c-05eb3c1d638d",
+            "order_id": "66-59209-RD",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "29 Jul 2026",
+            "status": "Dibatalkan",
+            "items": [
+                {
+                    "product_id": "polygon-xtrada-7",
+                    "name": "Polygon Xtrada 7",
+                    "price": 9500000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/polygon_xtrada_7.png"
+                }
+            ],
+            "subtotal": 9500000.0,
+            "shipping": 125000.0,
+            "tax": 1045000.0,
+            "total_amount": 10670000.0,
+            "type": "transaction"
+        },
+        {
+            "_id": "a94e471f-42e3-441b-b351-3f3221e1221d",
+            "id": "a94e471f-42e3-441b-b351-3f3221e1221d",
+            "order_id": "66-76950-ACC",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "29 Jul 2026",
+            "status": "Dikirim",
+            "items": [
+                {
+                    "product_id": "polygon-xtrada-7",
+                    "name": "Polygon Xtrada 7",
+                    "price": 9500000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/polygon_xtrada_7.png"
+                }
+            ],
+            "subtotal": 9500000.0,
+            "shipping": 125000.0,
+            "tax": 1045000.0,
+            "total_amount": 10670000.0,
+            "type": "transaction"
+        },
+        {
+            "_id": "6f5b38e4-d96b-4019-9f0e-9df646f9ca12",
+            "id": "6f5b38e4-d96b-4019-9f0e-9df646f9ca12",
+            "order_id": "65-90538-XC",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "29 Jul 2026",
+            "status": "Dikirim",
+            "items": [
+                {
+                    "product_id": "vortex-pro-helmet",
+                    "name": "Vortex Pro Helmet",
+                    "price": 850000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/vortex_helmet.png"
+                }
+            ],
+            "subtotal": 850000.0,
+            "shipping": 125000.0,
+            "tax": 93500.0,
+            "total_amount": 1068500.0,
+            "type": "transaction"
+        },
+        {
+            "_id": "969d2114-0a69-4c5e-931a-565cf422d3cb",
+            "id": "969d2114-0a69-4c5e-931a-565cf422d3cb",
+            "order_id": "67-16397-RD",
+            "user_id": "520c6af0-7ed8-4e45-90b7-4874b455e070",
+            "date": "29 Jul 2026",
+            "status": "Dikirim",
+            "items": [
+                {
+                    "product_id": "polygon-xtrada-7",
+                    "name": "Polygon Xtrada 7",
+                    "price": 9500000.0,
+                    "quantity": 1,
+                    "image_url": "http://localhost:8000/static/images/polygon_xtrada_7.png"
+                }
+            ],
+            "subtotal": 9500000.0,
+            "shipping": 125000.0,
+            "tax": 1045000.0,
+            "total_amount": 10670000.0,
+            "type": "transaction"
+        }
+    ],
+    "admins": [
+        {
+            "_id": "default-admin-id",
+            "id": "default-admin-id",
+            "email": "admin@gowesstore.com",
+            "password": "$2b$12$JCShmCXzUpyz5AcFK5NVrOO.oAwzjsf7EeCs/aYR/NhvNRZ/sl.BO",
+            "name": "Administrator",
+            "type": "admin"
+        }
+    ]
+}
